@@ -1,0 +1,2 @@
+# Personal portfolio website
+Hello I'm Chelly! Thanks for checking out the repo of my portfolio website. I think I've grown as developer in the past year, so I wanted to create something to showcase some of my work online. In this website I recreated certain functionalities and applications I have worked on during past projects. It isn't just my first portfolio website, but also a personal project where I can apply everything I've learned so far.
