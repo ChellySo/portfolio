@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import '../../node_modules/@chellycodeui/portfolio-designsystem/dist/index.css';
+
 
 body {
   background-color: #2A113E;
