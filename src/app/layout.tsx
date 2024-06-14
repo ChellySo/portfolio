@@ -17,8 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} font-sansserif`}>
-        <div className="w-screen">
+      <body className={`${inter.className} font-sansserif mx-10 md:mx-0`}>
+        <div className="w-full">
           <Navbar className="h-24">
             <div className="grid grid-cols-4 gap-1">
               <a href="/" className="place-content-center text-center">About</a>
