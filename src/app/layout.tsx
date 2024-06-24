@@ -28,7 +28,7 @@ export default function RootLayout({
             </div>
           </Navbar>
         </div>
-        <div className="grid gap-16 xs:block xs:gap-0">
+        <div className="grid gap-28 xs:block xs:gap-0">
           {children}
         </div>
       </body>

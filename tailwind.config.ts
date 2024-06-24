@@ -16,6 +16,19 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        'purple-100': '#F2EEF5',
+        'purple-200': '#F8EFFF',
+        'purple-300': '#EFDBFF',
+        'purple-400': '#A68BBC',
+        'purple-800': '#3D2351',
+        'purple-900': '#2A113E',
+        'fushia-100': '#FEDFFE',
+        'fushia-200': '#FCBFFD',
+        'fushia-300': '#F987FC',
+        'fushia-400': '#F85FFB',
+        'fushia-500': '#D52AD9',
+      },
       fontSize: {
         'heading-1': ['44px', { lineHeight: '50px' }],
         'heading-2': ['32px', { lineHeight: '40px' }],
