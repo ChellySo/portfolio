@@ -17,8 +17,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} font-sansserif mx-10 md:mx-0`}>
-        <div className="w-full">
+      <body className={`${inter.className} font-sansserif mx-10 md:mx-0 grid gap-12 xs:block xs:gap-0`}>
+        <div className="w-full mx-auto max-w-screen-md max-h-screen">
           <Navbar className="h-24">
             <div className="grid grid-cols-4 gap-1">
               <a href="/" className="place-content-center text-center">About</a>
@@ -28,7 +28,7 @@ export default function RootLayout({
             </div>
           </Navbar>
         </div>
-        <div className="h-[calc(100vh-6rem)]">
+        <div className="grid gap-16 xs:block xs:gap-0">
           {children}
         </div>
       </body>
